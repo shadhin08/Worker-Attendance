@@ -20,7 +20,7 @@ mongoConnect(
 );
 
 // Routes Middleware
-const Routes = require('./Routes/route');
+const Routes = require('./Routes/Route');
 app.use('/', Routes);
 
 
